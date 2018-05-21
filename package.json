@@ -10,7 +10,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "bulma": "^0.7.1",
+    "bulma-extensions": "^1.0.30",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.2",
+    "vue-material": "^1.0.0-beta-8"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
