@@ -1,0 +1,6 @@
+.interactbulma {
+    @import "../vendors/bulma/bulma.sass";
+    @import '../vendors/bulma-extensions/bulma-switch/dist/bulma-switch.sass';
+    @import '../vendors/bulma-extensions/bulma-slider/dist/bulma-slider.sass';
+    @import '../vendors/bulma-extensions/bulma-checkradio/dist/bulma-checkradio.sass';
+}

@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="height=device-height, initial-scale=1.0" />
     <title>Bulma test</title>
     <link rel="stylesheet" href = "vendors/bulma/css/bulma.css"/>
     <link rel="stylesheet" href = "vendors/font-awesome/css/font-awesome.min.css"/>
+
     <link rel="stylesheet" href = "vendors/bulma-extensions/bulma-switch/dist/bulma-switch.min.css" />
     <link rel="stylesheet" href = "vendors/bulma-extensions/bulma-slider/dist/bulma-slider.min.css" />
     <link rel="stylesheet" href = "vendors/bulma-extensions/bulma-checkradio/dist/bulma-checkradio.min.css" />
@@ -14,13 +16,47 @@
 </head>
 <body>
     <a class="button">Anchor</a>
-    <button class="button">Button</button>
-    <input class="button is-primary" type="submit" value="Submit input">
-
+    <a class="button is-primary">Primary</a>
+    <a class="button is-link">Link</a>
+    <a class="button is-info">Info</a>
+    <a class="button is-success">Success</a>
+    <a class="button is-warning">Warning</a>
+    <a class="button is-danger">Danger</a>
     <div class="field">
     <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
     <label for="switchExample">Switch example</label>
-</div>
+
+
+<div class="dropdown is-active">
+      <div class="dropdown-trigger">
+        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+          <span>Dropdown button</span>
+          <span class="icon is-small">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span>
+        </button>
+      </div>
+      <div class="dropdown-menu" is-active id="dropdown-menu" role="menu">
+        <div class="dropdown-content">
+          <a href="#" class="dropdown-item">
+            Dropdown item
+          </a>
+          <a class="dropdown-item">
+            Other dropdown item
+          </a>
+          <a href="#" class="dropdown-item is-active">
+            Active dropdown item
+          </a>
+          <a href="#" class="dropdown-item">
+            Other dropdown item
+          </a>
+          <hr class="dropdown-divider">
+          <a href="#" class="dropdown-item">
+            With a divider
+          </a>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>
